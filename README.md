@@ -1,2 +1,1 @@
-# todo-eda
-TodoService with Event Driven Architecture
+# TodoService with Event Driven Architecture

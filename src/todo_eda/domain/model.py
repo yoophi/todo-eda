@@ -11,5 +11,9 @@ class Todo:
     def to_dict(self):
         return {
             key: getattr(self, key)
-            for key in ('id', 'title', 'completed',)
+            for key in (
+                "id",
+                "title",
+                "completed",
+            )
         }

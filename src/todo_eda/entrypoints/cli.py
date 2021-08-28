@@ -1,7 +1,7 @@
 import click
 
 
-@click.group('cli')
+@click.group("cli")
 def main():
     pass
 
@@ -9,8 +9,8 @@ def main():
 @main.add_command
 @click.command()
 def add_todo():
-    click.echo('add-todo')
+    click.echo("add-todo")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -26,11 +26,7 @@ class MemTodoRepository(AbstractTodoRepository):
 
     def _get(self, todo_id):
         try:
-            return next(
-                todo
-                for todo in self._todos
-                if todo.id == todo_id
-            )
+            return next(todo for todo in self._todos if todo.id == todo_id)
         except StopIteration:
             return None
 
